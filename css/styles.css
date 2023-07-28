@@ -1,0 +1,253 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Raleway', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    background-color: beige;
+    border: solid;
+    border-radius: 15px;
+    border-color: rgb(161, 83, 60);
+    margin: 15px;
+}
+h1, h2, h3, h4, p{
+    text-align: center;
+}
+.presentacion{
+    margin: 20px;
+    display: flex;
+    justify-content: center;
+}
+.presentacion h1{
+    font-size: 3rem;
+}
+.presentacion img{
+    width: 15%;
+    height: 15%;
+}
+.presentacion .texto-presentacion{
+    padding-left: 40px;
+    padding-right: 40px;
+}
+.presentacion h1{
+    font-family: 'Dancing Script', cursive;
+    margin: 10px;
+}
+.presentacion h3{
+    margin: 10px;
+}
+.ubicacion{
+    background-color: rgb(228, 205, 186);
+    padding-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.ubicacion img{
+    width: 20%;
+    height: 20%;
+}
+.ubicacion p{
+    padding: 20px;
+    font-size: 1.3rem;
+}
+.ubicacion span{
+    font-weight: bold;
+}
+.ubicacion #btn-ubicacion{
+    background-color: beige;
+    color: black;
+    border-color: rgb(161, 83, 60);
+    border-radius: 20px;
+    font-style: italic;
+    font-weight: bold;
+    font-size: 1rem;
+}
+#btn-ubicacion:hover{
+    background-color: rgb(228, 205, 186);
+    transform: scale(1.1);
+}
+.ubicacion #mapa{
+    width: 90%;
+    margin: 20px;
+}
+.ubicacion #mapa{
+    display: none;
+}
+.dressCode{
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+.dressCode img{
+    width: 10%;
+    height: 10%;
+}
+.dressCode .texto-dressCode h3{
+    font-style: italic;
+}
+.dressCode .texto-dressCode p{
+    font-size: 1.3rem;
+    font-weight: bold;
+}
+.countDown{
+    background-color: rgb(228, 205, 186);
+    padding: 20px;
+    /*display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-template-areas: "faltan faltan faltan faltan"
+                        "days hours minutes seconds";*/
+}
+.countDown #faltan{
+    /*grid-area: faltan;*/
+    font-size: 1.3rem;
+    font-weight: bold;
+}
+.countDown #time{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+.countDown #days{
+    /*grid-area: days;*/
+    background-color: beige;
+    width: 50px;
+    border-radius: 15px;
+    padding-top: 10px;
+    border: solid;
+    border-color: rgb(151, 101, 84);
+}
+.countDown #days p{
+    font-weight: bold;
+    font-style: oblique;
+}
+.countDown #hours{
+    /*grid-area: hours;*/
+    background-color: beige;
+    width: 50px;
+    border-radius: 15px;
+    padding-top: 10px;
+    border: solid;
+    border-color: rgb(151, 101, 84);
+}
+.countDown #hours p{
+    font-weight: bold;
+    font-style: oblique;
+}
+.countDown #minutes{
+    /*grid-area: minutes;*/
+    background-color: beige;
+    width: 50px;
+    border-radius: 15px;
+    padding-top: 10px;
+    border: solid;
+    border-color: rgb(151, 101, 84);
+}
+.countDown #minutes p{
+    font-weight: bold;
+    font-style: oblique;
+}
+.countDown #seconds{
+    /*grid-area: seconds;*/
+    background-color: beige;
+    width: 50px;
+    border-radius: 15px;
+    padding-top: 10px;
+    border: solid;
+    border-color: rgb(151, 101, 84);
+}
+.countDown #seconds p{
+    font-weight: bold;
+    font-style: oblique;
+}
+.asistencia{
+    padding: 20px;
+}
+.asistencia .row{
+    justify-content: center;
+    margin-top: 20px;
+}
+.asistencia img{
+    width: 15%;
+    height: 15%;
+}
+.asistencia a{
+    text-decoration: none;
+}
+.asistencia #btn-asistencia{
+    background-color: rgb(228, 205, 186);
+    color: black;
+    border-color: rgb(161, 83, 60);
+    border-radius: 20px;
+    font-style: italic;
+    font-weight: bold;
+    font-size: 1rem;
+}
+#btn-asistencia:hover{
+    background-color: beige;
+    transform: scale(1.1);
+}
+.regalo{
+    background-color: rgb(228, 205, 186);
+    padding: 20px;
+}
+.regalo img{
+    width: 15%;
+    height: 15%;
+}
+.regalo p{
+    font-size: 1.2rem;
+}
+.regalo #btn-regalo{
+    background-color: beige;
+    color: black;
+    border-color: rgb(161, 83, 60);
+    border-radius: 20px;
+    font-style: italic;
+    font-weight: bold;
+    font-size: 1rem;
+}
+#btn-regalo:hover{
+    background-color: rgb(228, 205, 186);
+    transform: scale(1.1);
+}
+.regalo #datos-bancarios{
+    display: none;
+    margin: 20px;
+}
+.regalo #datos-bancarios span{
+    font-weight: bold;
+}
+.instagram{
+    padding: 20px;
+}
+.instagram img{
+    width: 15%;
+    height: 15%;
+    margin: 20px;
+}
+.instagram h4{
+    font-weight: bold;
+}
+.instagram p{
+    font-size: 1.2rem;
+}
+.instagram #btn-instagram{
+    background-color: rgb(228, 205, 186);
+    color: black;
+    border-color: rgb(161, 83, 60);
+    border-radius: 20px;
+    font-style: italic;
+    font-weight: bold;
+    font-size: 1rem;
+}
+#btn-instagram:hover{
+    background-color: beige;
+    transform: scale(1.1);
+}
