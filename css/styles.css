@@ -22,15 +22,11 @@ h1, h2, h3, h4, p{
     justify-content: center;
 }
 .presentacion h1{
-    font-size: 3rem;
+    font-size: 2.5rem;
 }
 .presentacion img{
     width: 15%;
     height: 15%;
-}
-.presentacion .texto-presentacion{
-    padding-left: 40px;
-    padding-right: 40px;
 }
 .presentacion h1{
     font-family: 'Dancing Script', cursive;
@@ -82,7 +78,6 @@ h1, h2, h3, h4, p{
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 50px;
 }
 .dressCode img{
     width: 10%;
@@ -174,8 +169,8 @@ h1, h2, h3, h4, p{
     margin-top: 20px;
 }
 .asistencia img{
-    width: 15%;
-    height: 15%;
+    width: 20%;
+    height: 20%;
 }
 .asistencia a{
     text-decoration: none;
@@ -196,10 +191,13 @@ h1, h2, h3, h4, p{
 .regalo{
     background-color: rgb(228, 205, 186);
     padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 .regalo img{
-    width: 15%;
-    height: 15%;
+    width: 20%;
+    height: 20%;
 }
 .regalo p{
     font-size: 1.2rem;
@@ -212,6 +210,7 @@ h1, h2, h3, h4, p{
     font-style: italic;
     font-weight: bold;
     font-size: 1rem;
+    margin-top: 20px;
 }
 #btn-regalo:hover{
     background-color: rgb(228, 205, 186);
@@ -225,11 +224,12 @@ h1, h2, h3, h4, p{
     font-weight: bold;
 }
 .instagram{
-    padding: 20px;
+    display: flex;
+    flex-direction: column;
 }
 .instagram img{
-    width: 15%;
-    height: 15%;
+    width: 20%;
+    height: 20%;
     margin: 20px;
 }
 .instagram h4{
@@ -246,6 +246,7 @@ h1, h2, h3, h4, p{
     font-style: italic;
     font-weight: bold;
     font-size: 1rem;
+    margin-bottom: 10px;
 }
 #btn-instagram:hover{
     background-color: rgb(245, 245, 241);
