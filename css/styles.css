@@ -58,7 +58,7 @@ h1, h2, h3, h4, p{
     font-weight: bold;
 }
 .ubicacion #btn-ubicacion{
-    background-color: beige;
+    background-color: rgb(245, 245, 241);
     color: black;
     border-color: rgb(161, 83, 60);
     border-radius: 20px;
@@ -116,7 +116,7 @@ h1, h2, h3, h4, p{
 }
 .countDown #days{
     /*grid-area: days;*/
-    background-color: beige;
+    background-color: rgb(245, 245, 241);
     width: 50px;
     border-radius: 15px;
     padding-top: 10px;
@@ -129,7 +129,7 @@ h1, h2, h3, h4, p{
 }
 .countDown #hours{
     /*grid-area: hours;*/
-    background-color: beige;
+    background-color: rgb(245, 245, 241);
     width: 50px;
     border-radius: 15px;
     padding-top: 10px;
@@ -142,7 +142,7 @@ h1, h2, h3, h4, p{
 }
 .countDown #minutes{
     /*grid-area: minutes;*/
-    background-color: beige;
+    background-color: rgb(245, 245, 241);
     width: 50px;
     border-radius: 15px;
     padding-top: 10px;
@@ -155,7 +155,7 @@ h1, h2, h3, h4, p{
 }
 .countDown #seconds{
     /*grid-area: seconds;*/
-    background-color: beige;
+    background-color: rgb(245, 245, 241);
     width: 50px;
     border-radius: 15px;
     padding-top: 10px;
@@ -190,7 +190,7 @@ h1, h2, h3, h4, p{
     font-size: 1rem;
 }
 #btn-asistencia:hover{
-    background-color: beige;
+    background-color: brgb(245, 245, 241)eige;
     transform: scale(1.1);
 }
 .regalo{
@@ -205,7 +205,7 @@ h1, h2, h3, h4, p{
     font-size: 1.2rem;
 }
 .regalo #btn-regalo{
-    background-color: beige;
+    background-color: rgb(245, 245, 241);
     color: black;
     border-color: rgb(161, 83, 60);
     border-radius: 20px;
@@ -248,6 +248,6 @@ h1, h2, h3, h4, p{
     font-size: 1rem;
 }
 #btn-instagram:hover{
-    background-color: beige;
+    background-color: rgb(245, 245, 241);
     transform: scale(1.1);
 }
