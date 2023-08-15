@@ -68,8 +68,6 @@ h1, h2, h3, h4, p{
 .ubicacion #mapa{
     width: 90%;
     margin: 20px;
-}
-.ubicacion #mapa{
     display: none;
 }
 .dressCode{
@@ -219,6 +217,9 @@ h1, h2, h3, h4, p{
 }
 .regalo #datos-bancarios span{
     font-weight: bold;
+}
+.carousel-item h5{
+    text-shadow: 2px 2px 1px whitesmoke;
 }
 .instagram{
     display: flex;

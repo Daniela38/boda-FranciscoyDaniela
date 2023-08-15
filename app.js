@@ -2,14 +2,22 @@ let btn_ubicacion = document.getElementById('btn-ubicacion');
 let mapa = document.getElementById('mapa');
 
 btn_ubicacion.addEventListener('click', function () {
+  if (mapa.style.display === "block") {
+    mapa.style.display = "none";
+  } else {
     mapa.style.display = "block";
+  }
 });
 
 let btn_regalo = document.getElementById('btn-regalo');
 let datos_bancarios = document.getElementById('datos-bancarios');
 
 btn_regalo.addEventListener('click', function () {
+  if (datos_bancarios.style.display === "block") {
+    datos_bancarios.style.display = "none";
+  } else {
     datos_bancarios.style.display = "block";
+  }
 });
 
 const weddingDate = new Date("2023-11-04 20:45:00").getTime();
