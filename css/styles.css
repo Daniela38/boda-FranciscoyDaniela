@@ -219,7 +219,9 @@ h1, h2, h3, h4, p{
     font-weight: bold;
 }
 #carouselExample{
-    height: 585px;
+    /*width: 80%;
+    display: flex;
+    justify-content: center;*/
 }
 .instagram{
     display: flex;
