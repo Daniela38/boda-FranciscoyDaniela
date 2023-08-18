@@ -90,15 +90,14 @@ h1, h2, h3, h4, p{
 .countDown{
     background-color: rgb(228, 205, 186);
     padding: 20px;
-    /*display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-    grid-template-rows: 1fr 1fr;
-    grid-template-areas: "faltan faltan faltan faltan"
-                        "days hours minutes seconds";*/
 }
 .countDown #faltan{
-    /*grid-area: faltan;*/
     font-size: 1.3rem;
+    font-weight: bold;
+}
+.countDown #llego{
+    display: none;
+    font-size: 1.4rem;
     font-weight: bold;
 }
 .countDown #time{
@@ -106,8 +105,7 @@ h1, h2, h3, h4, p{
     justify-content: center;
     gap: 20px;
 }
-.countDown #days{
-    /*grid-area: days;*/
+.countDown #days, #hours, #minutes, #seconds{
     background-color: rgb(245, 245, 241);
     width: 50px;
     border-radius: 15px;
@@ -115,46 +113,7 @@ h1, h2, h3, h4, p{
     border: solid;
     border-color: rgb(151, 101, 84);
 }
-.countDown #days p{
-    font-weight: bold;
-    font-style: oblique;
-}
-.countDown #hours{
-    /*grid-area: hours;*/
-    background-color: rgb(245, 245, 241);
-    width: 50px;
-    border-radius: 15px;
-    padding-top: 10px;
-    border: solid;
-    border-color: rgb(151, 101, 84);
-}
-.countDown #hours p{
-    font-weight: bold;
-    font-style: oblique;
-}
-.countDown #minutes{
-    /*grid-area: minutes;*/
-    background-color: rgb(245, 245, 241);
-    width: 50px;
-    border-radius: 15px;
-    padding-top: 10px;
-    border: solid;
-    border-color: rgb(151, 101, 84);
-}
-.countDown #minutes p{
-    font-weight: bold;
-    font-style: oblique;
-}
-.countDown #seconds{
-    /*grid-area: seconds;*/
-    background-color: rgb(245, 245, 241);
-    width: 50px;
-    border-radius: 15px;
-    padding-top: 10px;
-    border: solid;
-    border-color: rgb(151, 101, 84);
-}
-.countDown #seconds p{
+.countDown #days, #hours, #minutes, #seconds p{
     font-weight: bold;
     font-style: oblique;
 }
