@@ -219,9 +219,11 @@ h1, h2, h3, h4, p{
     font-weight: bold;
 }
 #carouselExample{
-    /*width: 80%;
-    display: flex;
-    justify-content: center;*/
+    margin: 20px;
+    font-style: italic;
+}
+.carousel-inner{
+    box-shadow: 5px 5px 15px black;
 }
 .instagram{
     display: flex;
